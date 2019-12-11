@@ -10,7 +10,7 @@
         <ListBox x:Name="allPlayersLbx" HorizontalAlignment="Left" Height="227" Margin="81,119,0,0" VerticalAlignment="Top" Width="215" Loaded="AllPlayersLbx_Loaded"/>
         <ListBox x:Name="selectedPlayersLbx" HorizontalAlignment="Left" Height="227" Margin="493,119,0,0" VerticalAlignment="Top" Width="215"/>
         <Button x:Name="addBtn" Content="Add&gt;&gt;" HorizontalAlignment="Left" Margin="347,179,0,0" VerticalAlignment="Top" Width="75" Click="AddBtn_Click"/>
-        <Button x:Name="removeBtn" Content="&lt;&lt;Remove" HorizontalAlignment="Left" Margin="347,258,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="removeBtn" Content="&lt;&lt;Remove" HorizontalAlignment="Left" Margin="347,258,0,0" VerticalAlignment="Top" Width="75" Click="RemoveBtn_Click"/>
         <TextBlock x:Name="allPlayersTxt" HorizontalAlignment="Left" Margin="81,76,0,0" TextWrapping="Wrap" Text="All Players" VerticalAlignment="Top"/>
         <TextBlock x:Name="selectedPlayersTxt" HorizontalAlignment="Left" Margin="493,76,0,0" TextWrapping="Wrap" Text="Selected Players" VerticalAlignment="Top"/>
         <ListBox x:Name="formationLbx" HorizontalAlignment="Left" Height="19" Margin="178,22,0,0" VerticalAlignment="Top" Width="100"/>

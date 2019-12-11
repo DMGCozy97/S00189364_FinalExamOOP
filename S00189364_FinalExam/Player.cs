@@ -9,7 +9,7 @@ namespace S00189364_FinalExam
 
     //creating enum
     public enum Position { Goalkeeper, Defender, Midfielder, Forward }
-    class Player : IComparable<Player>
+    class Player 
     {
         //Proporties
         public string FirstName { get; set; }
@@ -58,13 +58,9 @@ namespace S00189364_FinalExam
         //METHODS
         public override string ToString()
         {
-            return $"{FirstName} {Surname} {PreferedPosition} on {DateOfBirth.ToShortDateString()}";
+            return string.Format(FirstName + " " + PreferedPosition +"" +   DateOfBirth.ToShortDateString()); 
         }
 
-        public int CompareTo(Player other)
-        {
-            return this.PreferedPosition.CompareTo(other.PreferedPosition);
-        }
 
 
     }
